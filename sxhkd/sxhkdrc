@@ -165,3 +165,9 @@ super + shift + {o,p}
 # Move current window to a pre-selected space
 #super + shift + m
 #    bspc node -n last.!automatic
+
+# screen shot
+@Print
+	scrot -s --line mode=edge ~/Pictures/Screenshots/%Y-%m-%d_%H%M%S-$wx$h_screenshot-scrot.png
+
+
